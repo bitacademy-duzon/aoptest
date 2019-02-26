@@ -8,6 +8,10 @@ public class ProductService {
 	public ProductVo find( String name ) {
 		
 		System.out.println("fiding.......");
+
+//		if( true ) {
+//			throw new RuntimeException("my exception");
+//		}
 		
 		return new ProductVo(name);
 	}
